@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		lesson+
+	</title>
+</head>
+<body>
+		<script type="text/javascript">
+			var userName=prompt('Как тебя зовут?');
+			var userAge=prompt('Сколько лет?');
+			var smokerStatus=confirm('Куришь?');
+			userAge=userAge*1;
+			fffff=typeof(userAge);
+			console.log(fffff);
+			console.log(userAge);
+			result=smokerStatus?(userAge<18?userName+' Маме расскажу':userName+' ну и зря'):(userAge<18?userName+' так держать!': userName+' молодец, и не надо!');
+		userName===null||userName===''?alert('Поле "Имя" не может быть пустым, повторите ввод!'):(userAge===null||userAge===''||userAge+''==='NaN'||userAge===0?alert('Поле"возраст" не может быть пустым, значение в  поле должно быть указано цифрами и не может быть равно 0, повторите ввод!'):alert(result));
+		</script>
+
+</body>
+</html>
